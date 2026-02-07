@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Frontend Mentor – Meet Landing Page Solution
 
-## Getting Started
+This is my solution to the Meet landing page challenge
+ on Frontend Mentor.
+Frontend Mentor challenges help developers improve their front-end skills by building realistic, design-focused projects.
 
-First, run the development server:
+Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The Challenge
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Screenshot
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Links
 
-## Learn More
+My Process
 
-To learn more about Next.js, take a look at the following resources:
+Built With
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+What I Learned
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Continued Development
 
-## Deploy on Vercel
+Useful Resources
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Overview
+The Challenge
+
+Users should be able to:
+
+View the optimal layout depending on their device’s screen size
+
+See hover states for all interactive elements
+
+The primary focus of this challenge was recreating a multi-section landing page with a complex hero layout, responsive image positioning, and clear visual hierarchy across mobile, tablet, and desktop breakpoints.
+
+Screenshot
+
+Replace this image with a screenshot of your final solution.
+
+Links
+
+Solution URL: https://www.frontendmentor.io/solutions/your-solution-link
+
+Live Site URL: https://your-live-site-url.vercel.app
+
+My Process
+Built With
+
+Semantic HTML5
+
+Next.js (App Router)
+
+React
+
+Tailwind CSS
+
+CSS Grid & Flexbox
+
+Mobile-first workflow
+
+Responsive design principles
+
+What I Learned
+
+This project reinforced the importance of planning layout behavior across breakpoints before writing styles.
+
+Key learnings include:
+
+Mobile-first layout design:
+Starting with a stacked mobile layout made it easier to progressively enhance the design for tablet and desktop.
+
+Absolute positioning for complex hero sections:
+On desktop, the hero images are positioned independently from the text content, allowing the heading and call-to-action to remain centered while decorative images sit on either side.
+
+Reusable UI components:
+Buttons, containers, and section dividers were built as reusable components to ensure consistent spacing, hover states, and typography throughout the page.
+
+Example of responsive hero image handling:
+
+{/* Desktop-only hero art */}
+<div className="hidden lg:block absolute left-0 right-0">
+  {/* side images */}
+</div>
+
+{/* Mobile / tablet hero image */}
+<div className="lg:hidden">
+  {/* centered hero image */}
+</div>
+
+
+This approach kept the layout predictable while closely matching the provided design.
+
+Continued Development
+
+In future projects, I want to continue improving:
+
+Advanced responsive layout techniques with CSS Grid
+
+Building scalable Tailwind component systems
+
+Fine-tuning hover and focus states for accessibility
+
+Translating static designs into clean, maintainable component architectures
+
+Useful Resources
+
+Tailwind CSS Documentation
+ – Utility-first styling and responsive design
+
+Next.js Documentation
+ – App Router, image optimization, and layout patterns
+
+CSS Grid Layout – MDN
+ – Helpful for understanding layout structure
+
+Author
+
+Website: https://adrianzavala.dev
+
+Frontend Mentor: https://www.frontendmentor.io/profile/yourusername
+
+GitHub: https://github.com/zavaladrian# landingpage
